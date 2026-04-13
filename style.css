@@ -1,0 +1,14 @@
+.cat-extension {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 100px;
+  height: auto;
+  z-index: 9999;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.cat-extension:hover {
+  transform: scale(1.2) rotate(5deg);
+}

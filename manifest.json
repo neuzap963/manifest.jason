@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Extensão do Gato",
+  "version": "1.0",
+  "description": "Uma extensão com um gato 🐱",
+  "icons": {
+    "16": "cat-16.png",
+    "48": "cat-48.png",
+    "128": "cat-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
